@@ -6,7 +6,7 @@ from sys import argv
 
 script , filename = argv
 
-#create a var that will hold the opened file
+#create a var that will hold the opened file object
 txt = open(filename)
 
 #prompt for the filename and open and read from it
@@ -17,7 +17,7 @@ print txt.read()
 print "Type the filename again:"
 file_again = raw_input()
 
-#var that holds the opened file 'again'
+#var that holds the opened file object 'again'
 txt_again = open(file_again)
 
 #open the file and read from it 'again'
